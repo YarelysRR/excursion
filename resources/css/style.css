@@ -1,5 +1,8 @@
+html {
+  height: 100%;
+}
 body {
-  background-color: black;
+  background-color: #0e0e0e;
   text-align: center;
 }
 
@@ -10,7 +13,45 @@ h1 {
   color: white;
   text-align: center;
 }
+
+h2,
+.comingSoon {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+h3 {
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 21px;
+}
+
 .download {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
   color: aquamarine;
   font-size: 16px;
+}
+
+.download2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: aquamarine;
+  font-size: 16px;
+}
+
+footer p {
+  position: relative;
+  left: 540px;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  background-color: black;
+  max-width: 50%;
+  position: absolute;
+  left: 600px;
 }
